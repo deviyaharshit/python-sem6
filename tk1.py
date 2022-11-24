@@ -1,0 +1,10 @@
+from tkinter import *
+win = Tk()
+win.geometry("500x200")
+lbl = Label(win,text="welcome to python")
+lbl.pack()
+txt = Entry(win)
+txt.pack()
+btn = Button(win,text="click me")
+btn.pack()
+win.mainloop()
